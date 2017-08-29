@@ -1,0 +1,177 @@
+.container{
+    .header{
+        width: 100%;
+        height: 50px;
+        background: black;
+        display: flex;
+        flex-direction: row;
+        .headerlt{
+            width: 80px;
+            height: 100%;
+            font-size: 18px;
+            a{
+                text-decoration:none;
+                color: white;
+            }
+        }
+        .headerctn{
+            flex: 1;
+            font-size:16px;
+            b{
+                font-size: 12px;
+                color:white;
+            }
+        }
+        .headerrt{
+            width: 80px;
+            height: 100%;
+            font-size: 15px;
+            letter-spacing: 5px;
+            position: relative;
+            .hdmsg{
+                    position: absolute;
+                    width: 115px;
+                    bottom: -123px;
+                    right: 0;
+                    background: white;
+                    z-index: 999;
+                    font-size: 12px;
+                    color: black;
+                    font-weight: normal;
+                .hdp{
+                    width:90%;
+                    height:40px;
+                    line-height:40px;
+                    margin:0 5%;
+                    border-bottom:1px solid #ccc;
+                    text-shadow: none;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+    #content{
+        position: relative;
+        .gotop{
+            position: fixed;
+            text-decoration: none;
+            bottom: 70px;
+            left: 10px;
+            width: 40px;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.4);
+            line-height: 40px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 20px;
+            color: white;
+        }
+        .findbox{
+            position: fixed;
+            top: 50px;
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            box-sizing: border-box;
+            padding: 7px;
+            background: white;
+            input{
+                float: left;
+                border: none;
+                outline: none;
+                width: 80%;
+                height: 100%;
+                box-sizing: border-box;
+                background: #f2f3f4;
+                text-indent: 10px;
+                font-size: 13px;
+            }
+            button{
+                float: left;
+                border: none;
+                width:20%;
+                height: 100%;
+                font-size:14px;
+                text-align: center;
+                background: white;
+                outline: none;
+            }
+        }
+        .didian{
+            position: fixed;
+            top:50px;
+            left: 0;
+            width: 90%;
+            padding-left: 10%;
+            height: 100%;
+            z-index: 99999;
+            background: white;
+            h2{
+                width:100%;
+                height: 30px;
+                line-height: 30px;
+                font-size: 15px;
+                text-align: left;
+                margin: 20px 0 0;
+                color: #1a1a1a;
+            }
+            span{
+                width: 80px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 14px;
+                text-align: center;
+                display: inline-block;
+                border: 1px solid #ccc;
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+        }
+        .ctbx{
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px 0 0 0;
+            h2{
+                width: 100%;
+                height: 30px;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: left;
+            }
+            .homept{
+                width: 100%;
+                height: 14px;
+                font-size: 12px;;
+                color: red;
+                text-align: left;
+            }
+            .goods{
+                width: 100%;
+                padding: 15px 0;
+                border-bottom: 1px solid #ccc;
+                a{
+                    display: block;
+                }
+                img{
+                    width: 100%;
+                    height:200px;
+                }
+                p{
+                    width: 100%;
+                    height: 15px;
+                    font-size: 13px;
+                    text-align: left;
+                    color: #333;
+                    margin-bottom: 5px;
+                }
+                span{
+                    display: block;
+                    width: 100%;
+                    height: 15px;
+                    font-size: 12px;
+                    color: #aaa;
+                }
+            }
+        }
+    }
+}

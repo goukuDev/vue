@@ -1,0 +1,94 @@
+.container{
+    .header{
+        width: 100%;
+        height: 50px;
+        background: black;
+        display: flex;
+        flex-direction: row;
+        .headerlt{
+            width: 80px;
+            height: 100%;
+            font-size: 16px;
+            a{
+                text-decoration:none;
+                color: white;
+            }
+        }
+        .headerctn{
+            flex: 1;
+            font-size:16px;
+            a{
+                text-decoration: none;
+                font-size: 12px;
+                color:white;
+            }
+        }
+        .headerrt{
+            width: 80px;
+            height: 100%;
+            font-size: 15px;
+            letter-spacing: 5px;
+        }
+    }
+    #content{
+        .fdtop{
+            width: 100%;
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            border-bottom: 1px solid #ccc;
+            p{
+                width: 50%;
+                height: 100%;
+                line-height:30px;
+                text-align: center;
+                font-size:14px;
+                box-sizing: border-box;
+            }
+            .p{
+                border-bottom:2px solid #333;
+            }
+        }
+        .fdbox{
+                    width: 100%;
+                    height: 125px;
+                    padding: 10px 3%;
+                    box-sizing: border-box;
+                    border-bottom: 1px solid #ccc;
+                    display: flex;
+                    flex-direction: row;
+            img{
+                    width: 140px;
+                    height: 100%;
+                    margin-right: 5px;
+            }
+            .fdblt{
+                flex: 1;
+                p{
+                    width: 100%;
+                    &:nth-of-type(1){
+                        height: 60px;
+                        font-size: 13px;
+                    }
+                    &:nth-of-type(2){
+                        height:20px;
+                        font-size: 13px;
+                        span{
+                            color: #666;
+                            &:nth-of-type(1){
+                                color:red;
+                            }
+                            &:nth-of-type(2){
+                                color: red;
+                                margin-right:5px;
+                            }
+                            &:nth-of-type(3){
+                                text-decoration: line-through;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.container{
+    .header{
+        width: 100%;
+        height: 50px;
+        background: black;
+        display: flex;
+        flex-direction: row;
+        .headerlt{
+            width: 80px;
+            height: 100%;
+            font-size: 16px;
+            a{
+                text-decoration:none;
+                color: white;
+            }
+        }
+        .headerctn{
+            flex: 1;
+            font-size:16px;
+            a{
+                text-decoration: none;
+                font-size: 12px;
+                color:white;
+            }
+        }
+        .headerrt{
+            width: 80px;
+            height: 100%;
+            font-size: 15px;
+            letter-spacing: 5px;
+        }
+    }
+    #lgcontent{
+        width: 100%;
+        height: 100%;
+        background: white;
+        .logintitle{
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size:30px;
+            margin-top:20px;
+        }
+        input{
+            width: 92%;
+            height: 40px;
+            line-height: 40px;
+            text-align: left;
+            padding: 0 4%;
+            margin: 0 auto;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            border-bottom: 1px solid #ccc;
+            display: block;
+            box-sizing: border-box;
+        }
+        .name{
+            margin-top:20px;
+        }
+        .btn{
+            display: block;
+            background: black;
+            color: white;
+            font-size: 16px;
+            padding: none;
+            margin: 20px auto 0;
+            text-align: center;
+            letter-spacing: 10px;
+                
+            }
+    }
+}

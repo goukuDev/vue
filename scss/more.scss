@@ -1,0 +1,126 @@
+.container{
+    #content{
+        width:100%;
+        background:#f6f6f6;
+        .moreimg{
+            width:100%;
+            height:105px;
+        }
+        .morectn{
+            width: 92%;
+            margin: 10px auto;
+            p{
+                width: 100%;
+                font-size:13px;
+            }
+            input{
+                width: 130px;
+                height: 30px;
+                font-size: 13px;
+                background: #ff3939;
+                text-align: center;
+                line-height: 30px;
+                border: none;
+                outline: none;
+                color: white;
+                margin: 30px auto;
+                display: block;
+                border-radius: 5px;
+                display: block;
+            }
+            div{
+                width:100%;
+                height:20px;
+                line-height: 20px;
+                font-size:12px;
+                text-align: center;
+                span{
+                    color: #FF6666;
+                    &:nth-of-type(2){
+                        margin: 0 5px;
+                        color: black;
+                    }
+                }
+            }
+        }
+        .morebtm{
+            width: 92%;
+            height:25px;
+            border: 1px solid #ccc;
+            margin: 10px auto;
+            border-radius:5px;
+        } 
+        .mbottom{
+            width: 92%;
+            margin: 10px auto;
+            .mbtop{
+                font-size:12px;
+                color: #ccc;
+                width: 100%;
+                height: 20px;
+                position: relative;
+                span{
+                    position: absolute;
+                    &:nth-of-type(1){
+                        left:0;
+                    }
+                    &:nth-of-type(2){
+                        left:25px;
+                    }
+                    &:nth-of-type(3){
+                        left:50px;
+                    }
+                    &:nth-of-type(4){
+                        left:50%;
+                    }
+                    &:nth-of-type(5){
+                        right: 0;
+                    }
+                }
+            }
+        } 
+        .mbbtm{
+            width: 92%;
+            margin: 0 auto;
+            div{
+                    position:relative;
+                    width: 100%;
+                    height: 14px;
+                    text-align: left;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #ccc;
+                    margin: 5px 0;
+                span{
+                    position:absolute; 
+                    &:nth-of-type(1){
+                        right:65px;
+                    }
+                    &:nth-of-type(2){
+                        right:0;
+                    }
+                }
+            }
+            p{
+                    width: 100%;
+                    position: relative;
+                    color: #ccc;
+                    border-bottom: 1px solid #ccc;
+                    margin-top: 30px;
+                span{
+                    position: absolute;
+                    width:80px;
+                    height:20px;
+                    font-size:12px;
+                    left: 50%;
+                    margin-left:-40px;
+                    text-align: center;
+                    line-height:20px;
+                    top: 50%;
+                    margin-top: -10px;
+                    background: white;
+                }
+            }
+        } 
+    }
+}

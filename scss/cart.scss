@@ -1,0 +1,213 @@
+.container{
+    width:100%;
+    height: 100%;
+    #content{
+        width:100%;
+        height: 100%;
+        position: relative;
+        .cartgohome{
+            position: fixed;
+            bottom: 70px;
+            left: 10px;
+            width: 40px;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.4);
+            line-height: 40px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 20px;
+            color: white;
+        }
+        .nullcart{
+            width:100%;
+            height:250px;
+            img{
+                width: 120px;
+                height: 120px;
+                position: absolute;
+                left: 50%;
+                margin-left:-60px;
+                top:50px;
+                display: block;
+            }
+            p{
+                    width: 160px;
+                    height: 20px;
+                    font-size: 16px;
+                    text-align: center;
+                    line-height: 20px;
+                    margin-top: 181px;
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -80px;
+                    color: #666;
+            }
+        }
+        .carttop{
+                width: 96%;
+                height: 80px;
+                padding: 8px 2%;
+                clear: both;
+            .blt{
+                    float: left;
+                    width: 6%;
+                    height: 80px;
+                    line-height: 80px;
+                    font-size: 15px;
+                    color: red;
+                    text-align: left;
+            }
+            img{
+                float: left;
+                width:40%;
+                height:80px;
+            }
+            .carttoplet{
+                float: left;
+                width: 54%;
+                height:80px;
+                p{
+                    width: 100%;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    text-indent: 10px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    &:nth-of-type(1){
+                        font-size:13px;
+                    }
+                    &:nth-of-type(2){
+                        color:#aaa;
+                    }
+                    &:nth-of-type(3){
+                        color:red;
+                    }
+                    &:nth-of-type(4){
+                        clear: both;
+                        span{
+                            background: #ccc;
+                            width:20px;
+                            height:18px;
+                            display: inline-block;
+                            line-height:18px;
+                            text-align: center;
+                            border:1px solid #ccc;
+                            text-indent:0;  
+                            color:red; 
+                            &:nth-of-type(2){
+                                border:none;
+                                background: none;
+                            }
+                        }
+                        b{
+                            float: right;
+                            font-size: 17px;
+                            color:#999;
+                        }
+                    }
+                }
+            }
+        }
+        .cartbox{
+            width: 100%;
+            margin-top:40px;
+            h2{
+                width: 92%;
+                margin:15px 4%;
+                height: 20px;
+                font-size:15px;
+                text-align: center;
+                line-height:20px;
+                font-weight: normal;
+            }
+            .cartboxct{
+                    width: 92%;
+                    margin: 0 4%;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    div{
+                        width: 48%;
+                        height: 140px;
+                        color:#333; 
+                        &:nth-child(2n+1){
+                            margin-right:4%;
+                            margin-bottom:10px;
+                        }
+                        img{
+                            width: 100%;
+                            height:76px;
+                        }
+                        p{
+                            width: 100%;
+                            &:nth-of-type(1){
+                                height: 40px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                font-size: 12px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                            &:nth-of-type(2){
+                                height: 20px;
+                                font-size:12px;
+                                span{
+                                    display: inline-block;
+                                    height:20px;
+                                    line-height: 20px;
+                                    &:nth-of-type(1){
+                                        color: red;
+                                    }
+                                    &:nth-of-type(2){
+                                        color: #666;
+                                        text-decoration:line-through;
+                                    }
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+        .cartbtm{
+            width: 100%;
+            height:50px;
+            position: fixed;
+            bottom: 0;
+            left:0;
+            z-index: 999;
+            div{
+                width:33.3%;
+                height: 100%;
+                line-height:50px;
+                font-size: 12px;
+                float: left;
+            }
+            .left{
+                background: white;
+                text-indent:10px;
+                color: #ff3939;
+                b{
+                    margin-right:15px;
+                    font-size: 15px;
+                }
+            }
+            .ctn{
+                background: white;
+                text-align: center;
+                color: #ff3939;
+            }
+            .rith{
+                background:#ff3939;
+                text-align: center;
+                font-size: 15px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
